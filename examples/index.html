@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>世界创建图标库 - 示例</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+    .icon-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .icon-item {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .icon-item svg {
+      width: 48px;
+      height: 48px;
+      fill: #007bff;
+    }
+    .icon-name {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌍 世界创建图标库</h1>
+  <p style="text-align: center; color: #666;">示例页面 - 展示图标使用方式</p>
+
+  <div class="icon-grid">
+    <div class="icon-item">
+      <svg viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/>
+        <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" fill="none" stroke="currentColor" stroke-width="2"/>
+      </svg>
+      <div class="icon-name">世界</div>
+    </div>
+
+    <div class="icon-item">
+      <svg viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <div class="icon-name">堆叠</div>
+    </div>
+
+    <div class="icon-item">
+      <svg viewBox="0 0 24 24">
+        <path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="2"/>
+      </svg>
+      <div class="icon-name">添加</div>
+    </div>
+
+    <div class="icon-item">
+      <svg viewBox="0 0 24 24">
+        <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z" fill="currentColor"/>
+        <circle cx="12" cy="12" r="3" fill="currentColor"/>
+      </svg>
+      <div class="icon-name">定位</div>
+    </div>
+  </div>
+
+  <footer style="text-align: center; margin-top: 50px; color: #999; font-size: 14px;">
+    <p>🐕 由毛胡子创建</p>
+  </footer>
+</body>
+</html>
